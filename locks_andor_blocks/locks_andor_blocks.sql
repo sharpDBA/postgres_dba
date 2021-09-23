@@ -29,3 +29,4 @@ from pg_locks pl
         on pl.pid = psa.pid
 where mode not in ('AccessShareLock')
 order by pl.pid, pl.mode, psa.usename, pl.database, backend_runtime
+;
