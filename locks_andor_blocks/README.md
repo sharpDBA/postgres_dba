@@ -1,7 +1,7 @@
 # PostgreSQL script to find locks on database objects and blocked processes.
 
 Copy this directory change into it. As long as the SQL file is in the same directory as the bash script, run as in the example below. 
-This will create a csv file in the current directory.  
+This will create an `.out` file in the current directory with the query results and a datetime stamp.  
 ###### Example: 
 `./locks_andor_blocks.sh 'localhost' 'lab' 'postgres'`
 
